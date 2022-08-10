@@ -1,0 +1,66 @@
+public class Main
+{
+    public static void main(String[] args) {
+
+
+
+    for (int s =10; s>=1;s--){
+
+
+        System.out.println(s);
+
+    }
+
+
+
+
+
+
+    }
+}
+
+
+
+public class Main
+{
+    public static void main(String[] args) {
+
+
+    totalGrade(89,91);
+
+    System.out.println(totalGrade(89,91));
+
+    }
+
+public static int totalGrade(int num1 , int num2){
+
+      return  num1+num2;
+    }
+
+}
+
+
+public class Main
+{
+    public static void main(String[] args) {
+
+    temperature(123);
+
+    }
+
+    public static void temperature(int num1) 
+    {
+        int fuq = num1 ;
+
+
+        if ( num1>=23 ){
+            System.out.println("Hot");}
+
+         else { 
+            System.out.println("cold"); 
+        }
+
+
+
+    }
+}
